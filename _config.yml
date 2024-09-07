@@ -1,0 +1,91 @@
+title: "Permaprendices"
+email: permaprendices@gmail.com
+timezone: Europe/Madrid
+baseurl: ""
+permalink: "/:title/"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+author: Permaprendices
+paginate: 30
+disqus: 'permaprendices-com' # Ojo, checkear https://staticman.net/docs/getting-started.html para tema comentarios
+locale: es_es
+lang: es_es
+feed_items: 10
+feed_update_period: weekly
+feed_update_frequency: 1
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+sass:
+  sass_dir: _sass
+  style: :compressed
+ganalytics: '##p##' # Crear uno nuevo?
+
+# Authors
+authors:
+  permaprendices:
+    name: Andreu y Marta
+    display_name: Andreu y Marta
+    avatar: 'assets/images/permaprendices.png'
+    email: permaprendices@gmail.com
+    web: https://permaprendices.substack.com
+    # twitter: https://twitter.com/permaprendices
+    description: "Aprendiendo a ser guardianes de la Tierra. Compartimos nuestras experiencias como voluntarios en diferentes proyectos en nuestra newsletter Permaprendices."
+  marta:
+    name: Marta
+    display_name: Marta
+    avatar: 'assets/images/permaprendices.png'
+    email: permaprendices@gmail.com
+    web: https://permaprendices.substack.com
+    # twitter: https://twitter.com/permaprendices
+    description: ""
+  andreu:
+    name: Andreu
+    display_name: Andreu
+    avatar: 'assets/images/permaprendices.png'
+    email: permaprendices@gmail.com
+    web: https://permaprendices.substack.com
+    # twitter: https://twitter.com/permaprendices
+    description: ""
+
+# Social
+social:
+  instagram:
+    title: Instagram
+    url: https://www.instagram.com/permaprendices/
+    icon: 'fa-brands fa-instagram'
+  substack:
+    title: Substack
+    url: https://permaprendices.substack.com/
+    icon: 'fa-regular fa-envelope'
+  youtube:
+    title: YouTube
+    url: https://www.youtube.com/@PermaprendicesAyM
+    icon: 'fa-brands fa-youtube'
+
+# social: # Funciona igual que el de arriba
+#   instagram: {
+#     title: Instagram,
+#     url: https://www.instagram.com/permaprendices/,
+#     icon: 'fa-brands fa-instagram'
+#   }
+#   substack: {
+#     title: Substack,
+#     url: https://permaprendices.substack.com/,
+#     icon: 'fa-regular fa-bookmark'
+#   }
+#   youtube: {
+#     title: YouTube,
+#     url: https://www.youtube.com/@PermaprendicesAyM,
+#     icon: 'fa-brands fa-youtube'
+#   }
+  
+
+# Plugins
+plugins: 
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives

@@ -1,0 +1,32 @@
+# Top Menu
+topmenu:
+
+# - title: Inicio
+#   url: ""
+
+- title: Sobre nosotros
+  url: "about/"
+
+- title: Contacto
+  url: "contact/"
+
+# - title: Recibe nuestra newsletter
+#   url: https://permaprendices.substack.com/subscribe
+#   class: "ml-2 btn btn-dark text-white px-3"
+#   external: true
+
+# Footer Menu
+footermenu:
+
+- title: Inicio
+  url: ""
+
+- title: Privacidad
+  url: "privacy-policy/"
+
+- title: Contacto
+  url: "contact/"
+
+- title: Substack
+  url: https://permaprendices.substack.com
+  external: true

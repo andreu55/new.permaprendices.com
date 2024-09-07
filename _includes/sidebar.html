@@ -1,0 +1,34 @@
+<div class="sidebar sticky-top">        
+    
+    <div class="sidebar-section">
+        <h5><span>Newsletter</span></h5>
+        
+        <div id="mc_embed_signup">
+            <div id="mc_embed_signup_scroll">
+                <h2>Suscríbete a nuestra newsletter en substack</h2>
+            </div>
+            <div id="custom-substack-embed"></div>
+        </div>
+        {% include boton_substack.html %}
+    </div>
+    
+    <div class="sidebar-section">
+        <h5><span>Apóyanos</span></h5>
+        <div class="text-center">
+            {% include paypal.html %}
+        </div>
+    </div>
+
+    <!-- <div class="sidebar-section">
+        <h5><span>Your Ad Here</span></h5>
+        <img src="{{site.baseurl}}/assets/images/ad.png">
+    </div> -->
+
+    <!-- <div class="sidebar-section">
+        {% for s in site.social %}
+            {{ s[0] }}
+            <br>
+        {% endfor %}
+    </div> -->
+    
+</div>
