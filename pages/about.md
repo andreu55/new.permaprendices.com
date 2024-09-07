@@ -1,15 +1,27 @@
 ---
 layout: page
-title: Sobre nosotros
+title: ¿Qué es Permaprendices?
 permalink: "/about/"
 image: assets/images/screenshot.png
 ---
+Hola! Somos Andreu y Marta, una pareja de Valencia (España) que siente un anhelo profundo por vivir de otra manera, en conexión con la naturaleza y con las personas.
 
-This website is a demonstration to see **Affiliates Jekyll theme** in action. 
+Los seres humanos tenemos una función que cumplir en este planeta: apoyar a la vida generando abundancia y belleza, cada cual con sus propios dones y talentos. Solo cuando vivimos alineados con este propósito sentimos verdadera satisfacción.
 
-The theme is compatible with Github pages. This demo is created with Github Pages and hosted with Github. 
+Experiencias pasajeras, entretenimiento pasivo, consumismo… nada de eso aborda las necesidades reales que tenemos los seres humanos de pertenencia, intimidad, goce, creatividad, propósito.
 
-Everything is ready for your quick setup: Blog, Categories, About, Privacy Policy, Terms of Use, Contact form, Mailchimp
+¿Cómo podemos encontrar la felicidad? Vamos a descubrir cómo lo hacen en otros lugares y traer de vuelta lo que aprendamos. Este 2024 vamos a empezar un viaje de exploración como voluntarios en comunidades, ecoaldeas, proyectos de rewilding, fincas de permacultura…
 
-[Get it here](https://bootstrapstarter.com/jekyll-theme-memoirs/)
+A lo mejor tú también sientes que la vida debería ser otra cosa. Quizá tienes un trabajo que no te llena, vives rodeado de asfalto, no te sientes parte de algo mayor… Sea lo que sea, esperamos que en Permaprendices encuentres una inspiración, una fuente de preguntas para hacerte a ti mismo/a y, quién sabe, puede que incluso la motivación para emprender tu propio camino, parecido o no al nuestro.
 
+Suscríbete si te apetece saber por dónde andamos y lo que nos está fascinando en estos momentos.
+
+Un abrazo ❤️
+
+Andreu y Marta
+
+---
+
+Síguenos en [Substack](https://permaprendices.substack.com/) y recibe nuestras newsletters!
+
+Ah! y también puedes seguirnos también en instagram: [@permaprendices](https://www.instagram.com/permaprendices/).
