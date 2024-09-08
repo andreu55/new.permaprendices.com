@@ -2,8 +2,11 @@
 layout: page
 title: ¿Qué es Permaprendices?
 permalink: "/about/"
-image: assets/images/screenshot.png
+# image: assets/images/us.jpg
 ---
+
+![nosotros]({{ site.baseurl }}/assets/images/us.jpg)
+
 Hola! Somos Andreu y Marta, una pareja de Valencia (España) que siente un anhelo profundo por vivir de otra manera, en conexión con la naturaleza y con las personas.
 
 Los seres humanos tenemos una función que cumplir en este planeta: apoyar a la vida generando abundancia y belleza, cada cual con sus propios dones y talentos. Solo cuando vivimos alineados con este propósito sentimos verdadera satisfacción.
@@ -24,4 +27,4 @@ Andreu y Marta
 
 Síguenos en [Substack](https://permaprendices.substack.com/) y recibe nuestras newsletters!
 
-Ah! y también puedes seguirnos también en instagram: [@permaprendices](https://www.instagram.com/permaprendices/).
+Ah! y también puedes seguirnos también en [instagram](https://www.instagram.com/permaprendices/) (aunque no estamos tan activos)
