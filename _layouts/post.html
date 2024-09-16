@@ -9,13 +9,12 @@ comments: true
 <!-- Begin Article -->
 
 	<div class="row">
-		
 
 		<!-- Post -->        
         {% assign author = site.authors[page.author] %}
         
         <!-- Esto era un col-sm-8 -->
-		<div class="col-sm-12">
+		<div class="col-sm-8">
             
             {% comment %}
                 <!-- Post Featured Image -->
@@ -41,15 +40,13 @@ comments: true
                 
                 <!-- Post Title -->
 				<h1 class="posttitle">{{ page.title }}</h1>
-				<h4 class="muted">{{ page.subtitle }}</h4>
+				<h4 class="postsubtitle text-muted mb-3">{{ page.subtitle }}</h4>
 
-                {% if page.author %}				
-				<div class="row post-top-meta">
-					<div class="col-md-2">
+                {% if page.author %}
+				<div class="row">
+					<div class="col-md-5 mb-4">
 						<img class="author-thumb" src="{{site.baseurl}}/{{author.avatar}}" alt="{{ author.display_name }}">
-					</div>
-					<div class="col-md-10">
-						<a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a>
+                        <a style="font-size: 14px" target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a>
 					</div>
 				</div>				
                 {% endif %}
@@ -123,11 +120,9 @@ comments: true
 		<!-- End Post -->        
 
 		<!-- Sidebar -->
-        {% comment %}
         <div class="col-sm-4">
             {% include sidebar.html %}
         </div>
-        {% endcomment %}
 
 	</div>
 
