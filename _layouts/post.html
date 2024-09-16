@@ -14,10 +14,16 @@ comments: true
 		<!-- Post -->        
         {% assign author = site.authors[page.author] %}
         
-		<div class="col-sm-8">
-            <!-- Post Featured Image -->
-			{% if page.image %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">{% endif %}
-			<!-- End Featured Image -->
+        <!-- Esto era un col-sm-8 -->
+		<div class="col-sm-12">
+            
+            {% comment %}
+                <!-- Post Featured Image -->
+                {% if page.image %}
+                    <img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">
+                {% endif %}
+            {% endcomment %}
+			
 			<div class="mainheading">             
                 
                 <!-- Post Categories -->
@@ -34,7 +40,19 @@ comments: true
                 <!-- End Categories -->
                 
                 <!-- Post Title -->
-				<h1 class="posttitle">{{ page.title }}</h1> 
+				<h1 class="posttitle">{{ page.title }}</h1>
+				<h4 class="muted">{{ page.subtitle }}</h4>
+
+                {% if page.author %}				
+				<div class="row post-top-meta">
+					<div class="col-md-2">
+						<img class="author-thumb" src="{{site.baseurl}}/{{author.avatar}}" alt="{{ author.display_name }}">
+					</div>
+					<div class="col-md-10">
+						<a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a>
+					</div>
+				</div>				
+                {% endif %}
                 
 			</div>
 
@@ -58,9 +76,7 @@ comments: true
                     (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
                 {% endif %}
                 </small>
-            </p>
-            
-			
+            </p>	
             
             <!-- Prev/Next -->
             <div class="row PageNavigation mt-4 prevnextlinks d-flex justify-content-between">
@@ -79,18 +95,18 @@ comments: true
             
             
              <!-- Author Box -->
-                {% if page.author %}				
-				<div class="row post-top-meta">
-					<div class="col-md-2">
-						<img class="author-thumb" src="{{site.baseurl}}/{{author.avatar}}" alt="{{ author.display_name }}">
-					</div>
-					<div class="col-md-10">
-						<a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a>
-                        <!-- <a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a> -->
-						<span class="author-description">{{ author.description }}</span>						
-					</div>
-				</div>				
-                {% endif %}
+            {% if page.author %}				
+            <div class="row post-top-meta">
+                <div class="col-md-2">
+                    <img class="author-thumb" src="{{site.baseurl}}/{{author.avatar}}" alt="{{ author.display_name }}">
+                </div>
+                <div class="col-md-10">
+                    <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a>
+                    <!-- <a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a> -->
+                    <span class="author-description">{{ author.description }}</span>						
+                </div>
+            </div>				
+            {% endif %}
             
             
             <!-- Begin Comments -->
@@ -107,9 +123,11 @@ comments: true
 		<!-- End Post -->        
 
 		<!-- Sidebar -->
+        {% comment %}
         <div class="col-sm-4">
             {% include sidebar.html %}
         </div>
+        {% endcomment %}
 
 	</div>
 

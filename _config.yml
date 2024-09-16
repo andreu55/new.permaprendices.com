@@ -25,9 +25,9 @@ ganalytics: '##p##' # Crear uno nuevo?
 # Authors
 authors:
   permaprendices:
-    name: Andreu y Marta
-    display_name: Andreu y Marta
-    avatar: 'assets/images/permaprendices.png'
+    name: Marta y Andreu
+    display_name: MARTA Y ANDREU
+    avatar: 'assets/images/us.jpg'
     email: permaprendices@gmail.com
     web: https://permaprendices.substack.com
     # twitter: https://twitter.com/permaprendices

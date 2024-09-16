@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Tres historias sobre el mundo, ¿cuál es la tuya?"
+subtitle:  "Prueba de subtitulo"
 author: permaprendices
-featured: false # Si los destacamos, deberíamos destacar al menos 3
+featured: true # Si los destacamos, deberíamos destacar al menos 3
 categories: [ lo que nos mueve ]
 image: assets/images/tresh2.jpg
 ---
