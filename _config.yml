@@ -51,14 +51,14 @@ authors:
 
 # Social
 social:
+  substack:
+    title: Substack
+    url: https://permaprendices.substack.com/
+    icon: 'fa-solid fa-envelope'
   instagram:
     title: Instagram
     url: https://www.instagram.com/permaprendices/
     icon: 'fa-brands fa-instagram'
-  substack:
-    title: Substack
-    url: https://permaprendices.substack.com/
-    icon: 'fa-regular fa-envelope'
   youtube:
     title: YouTube
     url: https://www.youtube.com/@PermaprendicesAyM
@@ -73,7 +73,7 @@ social:
 #   substack: {
 #     title: Substack,
 #     url: https://permaprendices.substack.com/,
-#     icon: 'fa-regular fa-bookmark'
+#     icon: 'fa-solid fa-bookmark'
 #   }
 #   youtube: {
 #     title: YouTube,
