@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<!-- Post Featured Image -->
+{% if page.image %}
+<div class="text-center mx-auto mb-5">
+  <img class="featured-image text-center mx-auto rounded" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">
+</div>
+{% endif %}
+<!-- End Featured Image -->
+
+<div class="col-lg-11 mx-auto">
+
+  <div class="mainheading">
+    <h1 class="posttitle">{{ page.title }}</h1>
+  </div>
+
+  <div class="article-post serif-font">
+      
+      <div class="row">
+
+        <!-- Este div estará visible en pantallas medianas (md) o más grandes -->
+        <div class="col-md-6 d-none d-md-block">
+          <img src="/assets/images/marta.png" alt="nosotros" />
+        </div>
+        
+        <div class="col-md-6 d-none d-md-block">
+          <img src="/assets/images/andreu.png" alt="nosotros" />
+        </div>
+              
+        <!-- Este div estará visible solo en pantallas pequeñas (sm) -->
+        <div class="col-md-12 d-block d-md-none">
+          <img src="/assets/images/marta-arriba.png" alt="nosotros" />
+        </div>
+        
+        <div class="col-md-12 d-block d-md-none">
+          <img src="/assets/images/andreu-abajo.png" alt="nosotros" />
+        </div>
+      
+      </div>
+
+    {{content}}
+  </div>
+
+  {% if page.comments == true %}
+  <div id="comments">             
+      {% include disqus.html %} 
+  </div>
+  {% endif %}
+
+</div>

@@ -1,11 +1,9 @@
 ---
-layout: page
+layout: about
 title: ¿Qué es Permaprendices?
 permalink: "/about/"
 # image: assets/images/us.jpg
 ---
-
-![nosotros]({{ site.baseurl }}/assets/images/us.jpg)
 
 Hola! Somos Andreu y Marta, una pareja de Valencia (España) que siente un anhelo profundo por vivir de otra manera, en conexión con la naturaleza y con las personas.
 
