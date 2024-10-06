@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Markdown Example"
-author: andreu
+author: marta
 featured: false # Si los destacamos, deberíamos destacar al menos 3
 categories: [ lo que nos mueve ]
 image: assets/images/6.jpg

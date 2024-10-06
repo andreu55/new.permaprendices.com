@@ -2,14 +2,24 @@
 layout: about
 title: ¿Qué es Permaprendices?
 permalink: "/about/"
+
+marta_text: "Hola, soy Marta!"
+# marta_img1: 'assets/images/marta.png'
+# marta_img2: 'assets/images/marta-arriba.png'
+
+andreu_text: "Hola, soy Andreu!"
+# andreu_img1: 'assets/images/andreu.png'
+# andreu_img2: 'assets/images/andreu-abajo.png'
+
+# comments: true # no_funciona
 # image: assets/images/us.jpg
 ---
 
 Hola! Somos Andreu y Marta, una pareja de Valencia (España) que siente un anhelo profundo por vivir de otra manera, en conexión con la naturaleza y con las personas.
 
-Los seres humanos tenemos una función que cumplir en este planeta: apoyar a la vida generando abundancia y belleza, cada cual con sus propios dones y talentos. Solo cuando vivimos alineados con este propósito sentimos verdadera satisfacción.
+Creemos que los seres humanos tenemos una función que cumplir en este planeta: apoyar a la vida generando abundancia y belleza, cada cual con sus propios dones y talentos. Solo cuando vivimos alineados con este propósito sentimos verdadera satisfacción.
 
-Experiencias pasajeras, entretenimiento pasivo, consumismo… nada de eso aborda las necesidades reales que tenemos los seres humanos de pertenencia, intimidad, goce, creatividad, propósito.
+Experiencias pasajeras, entretenimiento pasivo, consumismo… nada de eso aborda las necesidades reales que tenemos de pertenencia, intimidad, goce, creatividad, propósito.
 
 ¿Cómo podemos encontrar la felicidad? Vamos a descubrir cómo lo hacen en otros lugares y traer de vuelta lo que aprendamos. Este 2024 vamos a empezar un viaje de exploración como voluntarios en comunidades, ecoaldeas, proyectos de rewilding, fincas de permacultura…
 

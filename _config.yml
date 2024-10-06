@@ -26,7 +26,7 @@ ganalytics: '##p##' # Crear uno nuevo?
 authors:
   permaprendices:
     name: Marta y Andreu
-    display_name: MARTA Y ANDREU
+    display_name: Marta y Andreu
     avatar: 'assets/images/us.jpg'
     email: permaprendices@gmail.com
     web: https://permaprendices.substack.com
@@ -35,7 +35,7 @@ authors:
   marta:
     name: Marta
     display_name: Marta
-    avatar: 'assets/images/permaprendices.png'
+    avatar: 'assets/images/marta.png'
     email: permaprendices@gmail.com
     web: https://permaprendices.substack.com
     # twitter: https://twitter.com/permaprendices
@@ -43,7 +43,7 @@ authors:
   andreu:
     name: Andreu
     display_name: Andreu
-    avatar: 'assets/images/permaprendices.png'
+    avatar: 'assets/images/andreu.png'
     email: permaprendices@gmail.com
     web: https://permaprendices.substack.com
     # twitter: https://twitter.com/permaprendices
@@ -52,7 +52,7 @@ authors:
 # Social
 social:
   substack:
-    title: Substack
+    title: Recibe nuestra newsletter
     url: https://permaprendices.substack.com/
     icon: 'fa-solid fa-envelope'
   instagram:
