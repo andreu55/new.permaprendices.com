@@ -13,7 +13,8 @@ background: '/img/bg-index.jpg'
       <p class="lead mb-4">Permacultura, meditación, ecoaldeas, espiritualidad, ecología profunda, psicodélicos... Documentamos nuestro viaje en busca de formas de vivir más conscientes y alineadas con nuestra esencia.</p>
       <a href="{{site.baseurl}}/about" class="btn btn-dark text-white px-5 btn-lg">Sobre nosotros</a>
     </div>
-    <div class="col-md-6 text-right pl-0 pl-lg-4">
+    <!-- Este div estará visible en pantallas medianas (md) o más grandes -->
+    <div class="col-md-6 text-right pl-0 pl-lg-4 d-none d-md-block">
       <img class="intro" height="500" src="{{site.baseurl}}/assets/images/next3.jpg">      
     </div>
   </div>
@@ -30,6 +31,9 @@ background: '/img/bg-index.jpg'
       {% endif %}
   {% endfor %}
 </section>
+
+
+{% comment %}
 
 <!-- Posts List with Sidebar (except featured) -->
 <h4 class="mb-4 pb-3 border-bottom"></h4>
@@ -52,6 +56,8 @@ background: '/img/bg-index.jpg'
     </div>
   </div>
   <div class="col-sm-4">
-    {% include sidebar.html %}
-  </div>
-</section>
+      {% include sidebar.html %}
+    </div>
+  </section>
+  
+  {% endcomment %}

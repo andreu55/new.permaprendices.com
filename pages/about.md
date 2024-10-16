@@ -33,6 +33,6 @@ Andreu y Marta
 
 ---
 
-Síguenos en [Substack](https://permaprendices.substack.com/) y recibe nuestras newsletters!
+Síguenos en [Substack](https://permaprendices.substack.com/) y recibe nuestras newsletters, ¡es donde más activos estamos!
 
 Ah! y también puedes seguirnos también en [instagram](https://www.instagram.com/permaprendices/) (aunque no estamos tan activos)
