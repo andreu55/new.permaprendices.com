@@ -1,37 +1,45 @@
 ---
 layout: page
-title: Privacy Policy
+title: Política de Privacidad
 permalink: /privacy-policy/
 comments: false
+
 ---
 
-### Information that is gathered from visitors
-In common with other websites, log files are stored on the web server saving details such as the visitor's IP address, browser type, referring page and time of visit.
+En Permaprendices, estamos comprometidos con la protección de tu privacidad y el manejo adecuado de tus datos personales. Esta política de privacidad describe cómo recopilamos, usamos y protegemos la información que proporcionas a través de nuestro sitio web.
 
-Cookies may be used to remember visitor preferences when interacting with the website.
+## 1. Información que Recopilamos
 
-Where registration is required, the visitor's email and a username will be stored on the server.
+### Google Analytics:
+Utilizamos Google Analytics para analizar el tráfico de nuestra página web y entender mejor cómo los usuarios interactúan con nuestro contenido. Google Analytics recopila información anónima, como tu dirección IP, el tipo de dispositivo que utilizas, la ubicación aproximada, el tiempo de permanencia en la web, entre otros datos técnicos. Estos datos se utilizan únicamente con fines estadísticos y no nos permiten identificarte personalmente.
 
-### How the Information is used
-The information is used to enhance the vistor's experience when using the website to display personalised content and possibly advertising.
+### Formulario de Contacto:
+Nuestro formulario de contacto permite que te comuniques con nosotros de manera fácil. Al enviarnos un mensaje a través de este formulario, se nos envía un correo electrónico con tu nombre y dirección de correo electrónico, junto con tu mensaje. Esta información no se almacena en ninguna base de datos ni se utiliza para otros fines más allá de responder a tu solicitud.
 
-E-mail addresses will not be sold, rented or leased to 3rd parties.
+## 2. Uso de la Información
 
-E-mail may be sent to inform you of news of our services or offers by us or our affiliates.
+La información recopilada por Google Analytics se utiliza para mejorar la funcionalidad del sitio web y optimizar la experiencia del usuario. No compartimos esta información con terceros, excepto cuando sea necesario para cumplir con la ley o para proteger nuestros derechos.
 
-### Visitor Options
-If you have subscribed to one of our services, you may unsubscribe by following the instructions which are included in e-mail that you receive.
+Los datos del formulario de contacto se usan exclusivamente para responder a tus mensajes y no se comparten ni almacenan fuera del correo electrónico.
 
-You may be able to block cookies via your browser settings but this may prevent you from access to certain features of the website.
+## 3. Protección de Datos
 
-### Cookies
-Cookies are small digital signature files that are stored by your web browser that allow your preferences to be recorded when visiting the website. Also they may be used to track your return visits to the website.
+Nos comprometemos a proteger tu información. Implementamos medidas técnicas y organizativas apropiadas para garantizar que tu información esté segura y protegida contra el acceso no autorizado o su divulgación.
 
-3rd party advertising companies may also use cookies for tracking purposes.
+## 4. Cookies
 
-### Google Ads
-Google, as a third party vendor, uses cookies to serve ads.
+Google Analytics utiliza cookies para recopilar información. Puedes desactivar las cookies en la configuración de tu navegador si prefieres no compartir esta información. Sin embargo, ten en cuenta que desactivar las cookies puede afectar la funcionalidad de nuestro sitio web.
 
-Google's use of the DART cookie enables it to serve ads to visitors based on their visit to sites they visit on the Internet.
+## 5. Derechos del Usuario
 
-Website visitors may opt out of the use of the DART cookie by visiting the Google ad and content network privacy policy.
+Tienes derecho a solicitarnos acceso a la información personal que hayamos recibido, así como a corregir o eliminar dicha información. Sin embargo, dado que no almacenamos datos personales fuera del correo electrónico de contacto, la única información que podríamos tener es la que hayas enviado a través del formulario de contacto.
+
+## 6. Cambios a Esta Política de Privacidad
+
+Podemos actualizar esta política de privacidad de vez en cuando. Te recomendamos que revises esta página periódicamente para estar al tanto de cualquier cambio.
+
+## 7. Contacto
+
+Si tienes alguna pregunta sobre esta política de privacidad o sobre cómo manejamos tus datos personales, puedes contactarnos a través del correo electrónico proporcionado en el formulario de contacto
+
+_Fecha de última actualización: Noviembre 2024_
