@@ -51,18 +51,22 @@ authors:
 
 # Social
 social:
-  substack:
-    title: Recibe nuestra newsletter
-    url: https://permaprendices.substack.com/
-    icon: 'fa-solid fa-envelope'
   instagram:
     title: Instagram
     url: https://www.instagram.com/permaprendices/
-    icon: 'fa-brands fa-instagram'
+    icon: 'fa-brands fa-instagram text-secondary'
+  substack:
+    title: Recibe nuestra newsletter
+    url: https://permaprendices.substack.com/
+    icon: 'fa-solid fa-envelope text-secondary'
+  pexels:
+    title: Galería fotográfica en Pexels
+    url: https://www.pexels.com/es-es/@permaprendices/
+    icon: 'fa-solid fa-images text-secondary'
   youtube:
     title: YouTube
     url: https://www.youtube.com/@PermaprendicesAyM
-    icon: 'fa-brands fa-youtube'
+    icon: 'fa-brands fa-youtube text-secondary'
 
 # social: # Funciona igual que el de arriba
 #   instagram: {

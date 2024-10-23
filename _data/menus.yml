@@ -29,4 +29,5 @@ footermenu:
 
 - title: Substack
   url: https://permaprendices.substack.com
+  class: substack-color
   external: true
