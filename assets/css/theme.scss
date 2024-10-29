@@ -137,11 +137,8 @@ small, .small {
 
 /* Pages
 ================================================== */
-.hero {
-    background: #d1d1b6;
-    padding: 5rem 5rem;
-}
 
+/* Aquí van los estilos específicos para pantallas de 1024px o menos */
 @media only screen and (max-width: 1024px) {
     .page-header.big {
         font-size:3.5em;
@@ -156,11 +153,23 @@ small, .small {
         display:block;
     }
 }
+
+/* Aquí van los estilos específicos para pantallas de 767px o menos */
 @media only screen and (max-width: 767px) {
     .page-header.big {
         font-size:2.5em;
     }
 }
+
+/* Aquí van los estilos específicos para pantallas de más de 767px de ancho */
+@media only screen and (min-width: 767px) {
+
+    .hero {
+        background: #d1d1b6;
+        padding: 5rem 5rem;
+    }
+}
+
 .google-auto-placed {
     margin-bottom:2rem;
 } 
