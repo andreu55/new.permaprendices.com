@@ -4,10 +4,12 @@ title: ¿Qué es Permaprendices?
 permalink: "/about/"
 
 marta_text: "Marta tiene una habilidad extraordinaria para conectar y escribir ideas. Durante años ha puesto su habilidad a disposición de terapeutas holísticos para ayudar a que sus mensajes de salud llegaran a más personas, hasta que sintió la llamada de emplearlas para tender un puente entre la vida tal y como nos la han contado y el mundo más bello que nuestro corazón sabe que es posible. Incansable devoradora de libros, multipotencial, autodidacta, con ciertos problemas para elegir qué camino le apetece más hoy y a la vez muy disciplinada. Combina lo terrenal y lo esotérico: aprendiza de la terapia Sistemas de la Familia Interna y de los misterios de Ávalon; estudiante de agricultura sintrópica y de comunicación con la inteligencia vegetal; exploradora de la mente y del mundo imaginal. De su época en las terapias holísticas se ha quedado con un kit para hacer auriculoterapia que lleva siempre encima."
+marta_icon: "fa-solid fa-cat"
 # marta_img1: 'assets/images/marta.png'
 # marta_img2: 'assets/images/marta-arriba.png'
 
 andreu_text: "Andreu ha sido durante mucho tiempo un excelente programador informático, querido por sus compañeros de oficina y alabado por su jefe. Aunque la programación le encantaba, con el paso de los años cada vez se sentía más vacío, pero en cuanto metía las manos en la tierra, en el campo o en el monte, redescubría la felicidad. Otra de sus pasiones es la música. Melómano con todas las letras, dj de Drum and Bass (@beyondbeat_) y otra música electrónica, disfruta como un niño creando mixes locos y viendo a la gente darlo todo en la pista. La cocina y la fotografía despiertan su creatividad. Psiconauta, le fascina explorar su propia consciencia con psicodélicos y distintas modalidades terapéuticas. La meditación y la respiración consciente son sus anclas para estar presente. Inusual lector de Registros Akáshicos. Aunque algunos amigos lo llaman “chamán”, no tiene nada que lo certifique."
+andreu_icon: "fa-solid fa-feather-pointed"
 # andreu_img1: 'assets/images/andreu.png'
 # andreu_img2: 'assets/images/andreu-abajo.png'
 

@@ -58,7 +58,7 @@ social:
   substack:
     title: Recibe nuestra newsletter
     url: https://permaprendices.substack.com/
-    icon: 'fa-solid fa-envelope text-secondary'
+    icon: 'fa-solid fa-leaf text-secondary'
   pexels:
     title: Galería fotográfica en Pexels
     url: https://www.pexels.com/es-es/@permaprendices/

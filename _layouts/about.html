@@ -13,7 +13,9 @@ layout: default
 <div class="mx-auto">
 
   <div class="mainheading">
-    <h1 class="posttitle text-center mb-3">{{ page.title }}</h1>
+    <h1 class="posttitle text-center mb-3">
+      {{ page.title }}
+    </h1>
   </div>
 
   <div class="article-post serif-font">
@@ -25,7 +27,8 @@ layout: default
           <div class="card">
             <img class="rounded mb-4" src="/assets/images/marta.png" alt="Marta">
             <div class="card-block">
-              <p class="card-text text-muted">
+              <p class="card-text text-muted text-justify">
+                <i class="{{ page.marta_icon }} fa-fw permap-color"></i>
                 {{ page.marta_text }}
               </p>
             </div>
@@ -36,7 +39,8 @@ layout: default
           <div class="card">
             <img class="rounded mb-4" src="/assets/images/andreu.png" alt="Andreu">
             <div class="card-block">
-              <p class="card-text text-muted">
+              <p class="card-text text-muted text-justify">
+                <i class="{{ page.andreu_icon }} fa-fw permap-color"></i>
                 {{ page.andreu_text }}
               </p>
             </div>
@@ -48,7 +52,8 @@ layout: default
           <div class="card">
             <img class="rounded mb-4" src="/assets/images/marta-arriba.png" alt="Marta2">
             <div class="card-block">
-              <p class="card-text text-muted">
+              <p class="card-text text-muted text-justify">
+                <i class="fa-solid fa-cat fa-fw permap-color"></i>
                 {{ page.marta_text }}
               </p>
             </div>
@@ -59,7 +64,8 @@ layout: default
           <div class="card">
             <img class="rounded mb-4" src="/assets/images/andreu-abajo.png" alt="Andreu2">
             <div class="card-block">
-              <p class="card-text text-muted">
+              <p class="card-text text-muted text-justify">
+                <i class="fa-solid fa-feather-pointed fa-fw permap-color"></i>
                 {{ page.andreu_text }}
               </p>
             </div>
