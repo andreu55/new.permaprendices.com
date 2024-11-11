@@ -10,14 +10,12 @@ comments: true
 
 	<div class="row">
 
-		<!-- Post -->        
         {% assign author = site.authors[page.author] %}
-        
-        <!-- Esto era un col-sm-8 -->
-		<div class="col-sm-8">
+
+		<div class="col-lg-8">
             
             {% comment %}
-                <!-- Post Featured Image -->
+                <!-- Imagen inicial QUITADA -->
                 {% if page.image %}
                     <img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">
                 {% endif %}
@@ -25,31 +23,9 @@ comments: true
 			
 			<div class="mainheading">             
                 
-                <!-- Post Categories -->
-                <div class="after-post-tags">
-                    <ul class="tags">
-                        {% assign sortedCategories = page.categories | sort %}
-                        {% for category in sortedCategories %}
-                        <li>
-                         <a href="{{ site.baseurl }}/categories#{{ category | slugify }}">{{ category }}</a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <!-- End Categories -->
-                
-                <!-- Post Title -->
+                <!-- Titulo -->
 				<h1 class="posttitle">{{ page.title }}</h1>
 				<h4 class="postsubtitle text-muted mb-3">{{ page.subtitle }}</h4>
-
-                {% if page.author %}
-				<div class="row">
-					<div class="col-md-5 mb-4">
-						<img class="author-thumb" src="{{site.baseurl}}/{{author.avatar}}" alt="{{ author.display_name }}">
-                        <a style="font-size: 14px" target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a>
-					</div>
-				</div>				
-                {% endif %}
                 
 			</div>
 
@@ -61,18 +37,43 @@ comments: true
                 <div class="clearfix"></div>
 			</div>
 
-            <!-- Post Date -->
-            <p>
-            <small>
-                <span class="post-date">
-                    <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">
-                        {{ site.time | date: "%-d, %m, %y" }}
-                    </time>
-                </span>
-                {% if page.last_modified_at %}
-                    (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
+            
+            <div>
+                <!-- Categorías: Lo que nos mueve / Nuestro Viaje -->
+                <div class="after-post-tags">
+                    <ul class="tags">
+                        {% assign sortedCategories = page.categories | sort %}
+                        {% for category in sortedCategories %}
+                        <li>
+                         <a href="{{ site.baseurl }}/categories#{{ category | slugify }}">{{ category }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+
+                {% if page.author %}
+				<div class="row">
+					<div class="col-md-5 mb-4">
+						<img class="author-thumb" src="{{site.baseurl}}/{{author.avatar}}" alt="{{ author.display_name }}">
+                        <a style="font-size: 14px" target="_blank" class="link-dark" href="{{ author.web }}">
+                            {{ author.display_name }}
+                        </a>
+                        <span class="author-description">
+                                <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">
+                                    {{ page.date | date: "%-d/%m/%y" }}
+                                </time>
+                            </span>
+                            {% if page.last_modified_at %}
+                                (Act. <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%-d/%m/%y" }}</time>)
+                            {% endif %}
+                        
+                        
+					</div>
+				</div>				
                 {% endif %}
-                </small>
+            </div>
+
+            <p>
             </p>	
             
             <!-- Prev/Next -->
@@ -120,7 +121,7 @@ comments: true
 		<!-- End Post -->        
 
 		<!-- Sidebar -->
-        <div class="col-sm-4">
+        <div class="col-lg-4">
             {% include sidebar.html %}
         </div>
 
