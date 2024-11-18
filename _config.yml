@@ -63,6 +63,10 @@ social:
     title: Galería fotográfica en Pexels
     url: https://www.pexels.com/es-es/@permaprendices/
     icon: 'fa-solid fa-images text-secondary'
+  bluesky:
+    title: Bluesky
+    url: https://bsky.app/profile/permaprendices.substack.com
+    icon: 'fa-brands fa-bluesky text-secondary'
   youtube:
     title: YouTube
     url: https://www.youtube.com/@PermaprendicesAyM

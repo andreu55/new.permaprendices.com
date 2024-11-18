@@ -35,7 +35,7 @@ body {
 @media (min-width: 1366px) {
     .container-xl, .container-lg, .container-md, .container-sm, .container {
         width:90%;
-        max-width:90%;
+        max-width:min(100%,var(--container-max-width, 1248px));
         padding:0 25px;
     }
 }
