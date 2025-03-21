@@ -20,17 +20,23 @@
     
     <div class="sidebar-section">
         <h5><span>Apóyanos</span></h5>
-        <div class="text-center">
-            {% comment %}
-                {% include paypal.html %}
-            {% endcomment %}
 
-            <!-- https://ko-fi.com/permaprendices -->
-            <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
-            <script type='text/javascript'>kofiwidget2.init('Support us on Ko-fi', '#D1D1B6', 'D1D85ES3');kofiwidget2.draw();</script> 
-
-            {% include boton_paypal.html %}
+        <div id="mc_embed_signup">
+            <div id="mc_embed_signup_scroll">
+                <h2>Ayúdanos a seguir fermentando contenido burbujeante y nutritivo!</h2>
+            </div>
         </div>
+     
+        {% comment %}
+            {% include paypal.html %}
+        {% endcomment %}
+
+        {% comment %}
+            {% include kofi.html %}
+        {% endcomment %}
+
+        {% include boton_paypal.html %}
+        
     </div>
 
     <!-- <div class="sidebar-section">

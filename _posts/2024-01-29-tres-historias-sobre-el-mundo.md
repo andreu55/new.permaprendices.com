@@ -8,6 +8,7 @@ author: permaprendices
 featured: false # Si los destacamos, deberíamos destacar al menos 3
 categories: [ lo que nos mueve ]
 image: assets/images/tresh2.jpg
+draft: true
 ---
 
 * Do not remove this line (it will not be displayed)
