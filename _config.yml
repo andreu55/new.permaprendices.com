@@ -15,6 +15,7 @@ feed_update_period: weekly
 feed_update_frequency: 1
 markdown: kramdown
 kramdown:
+  enable_attribute_parser: true # Este lo acabo de poner
   syntax_highlighter_opts:
     disable: true
 sass:
@@ -55,18 +56,18 @@ social:
     title: Instagram
     url: https://www.instagram.com/permaprendices/
     icon: 'fa-brands fa-instagram text-secondary'
-  substack:
-    title: Recibe nuestra newsletter
-    url: https://permaprendices.substack.com/
-    icon: 'fa-solid fa-leaf text-secondary'
+  # substack:
+  #   title: Recibe nuestra newsletter
+  #   url: https://permaprendices.substack.com/
+  #   icon: 'fa-solid fa-leaf text-secondary'
   pexels:
     title: Galería fotográfica en Pexels
     url: https://www.pexels.com/es-es/@permaprendices/
     icon: 'fa-solid fa-images text-secondary'
-  bluesky:
-    title: Bluesky
-    url: https://bsky.app/profile/permaprendices.substack.com
-    icon: 'fa-brands fa-bluesky text-secondary'
+  # bluesky:
+  #   title: Bluesky
+  #   url: https://bsky.app/profile/permaprendices.substack.com
+  #   icon: 'fa-brands fa-bluesky text-secondary'
   youtube:
     title: YouTube
     url: https://www.youtube.com/@PermaprendicesAyM

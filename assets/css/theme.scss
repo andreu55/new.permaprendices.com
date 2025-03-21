@@ -296,13 +296,25 @@ span.post-name a,span.post-read-more a:hover {
 	margin-left:3px;
 	margin-right:3px;
 }
-.mainheading h1.posttitle {
-	font-weight:700;
-	// margin-bottom:.7rem;
+// .mainheading h1.posttitle {
+// 	font-weight:700;
+// 	// margin-bottom:.7rem;
+// }
+// .mainheading .postsubtitle {
+// 	font-weight:400;
+// }
+
+h1 {
+    font-size: 32px;
+    font-weight:700;
 }
-.mainheading .postsubtitle {
-	font-weight:400;
+
+h2, h3, h4 {
+    font-size: 18px;
+    font-weight:400;
 }
+
+
 .link-dark {
 	color:rgba(0,0,0,.8);
 }
@@ -563,9 +575,9 @@ background-color: #fff;
 .sidebar-right .sidebar {max-width:inherit;}
 
 .article-post .h1, .article-post .h2, .article-post .h3, .article-post .h4, .article-post .h5, .article-post .h6, .article-post h1, .article-post h2, .article-post h3, .article-post h4, .article-post h5, .article-post h6 {
-    font-weight: 600;
+    // font-weight: 600;
     font-family: Georgia, Times, "Times New Roman", serif; // PT Sans
-    margin-top: 3.1rem; // 3
+    // margin-top: 3.1rem; // 3
 }
 
 img {max-width:100%;height: auto;}
@@ -633,4 +645,24 @@ span.navigation:before {
 .hover-opacity:hover {
     transition: all 0.3s;
     opacity:.8;
+}
+
+
+// Adding 'Contents' headline to the TOC
+#markdown-toc::before {
+    content: "Índice";
+    font-weight: bold;
+}
+
+
+// Using numbers instead of bullets for listing
+#markdown-toc ul {
+    list-style: decimal;
+}
+
+#markdown-toc {
+    border: 1px solid #aaa;
+    padding: 1.5em;
+    list-style: decimal;
+    display: inline-block;
 }

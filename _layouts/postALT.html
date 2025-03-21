@@ -20,13 +20,13 @@ comments: true
                 {% if page.image %}
                     <img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">
                 {% endif %}
-            {% endcomment %}
                 
-            <div class="mainheading">             
-                <!-- Titulo -->
-                <h1 class="posttitle">{{ page.title }}</h1>
-                <h4 class="postsubtitle text-muted mb-3">{{ page.subtitle }}</h4>
-            </div>
+                <div class="mainheading">             
+                    <!-- Titulo -->
+                    <h1 class="posttitle">{{ page.title }}</h1>
+                    <h4 class="postsubtitle text-muted mb-3">{{ page.subtitle }}</h4>
+                </div>
+            {% endcomment %}
 
 			<!-- Post Content -->
 			<div class="article-post serif-font">
@@ -116,13 +116,6 @@ comments: true
 
 		</div>
 		<!-- End Post -->
-
-        {% comment %}
-		<!-- Sidebar -->
-        <div class="col-lg-4">
-            {% include sidebar.html %}
-        </div>
-        {% endcomment %}
 
 	</div>
 
