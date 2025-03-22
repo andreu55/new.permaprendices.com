@@ -46,7 +46,7 @@ jobs:
       - name: Validar HTML y enlaces rotos
         run: |
           gem install html-proofer
-          htmlproofer ./_site --disable-external --only-4xx --checks "links,images" --report-invalid-tags --empty-alt-ignore --url-ignore "/localhost/,/127.0.0.1/"
+          htmlproofer ./_site --disable-external --only-4xx --checks "links,images" --url-ignore "/localhost/,/127.0.0.1/"
         continue-on-error: true
 
       - name: Subir los datos procesados para despliegue
