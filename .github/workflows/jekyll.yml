@@ -1,4 +1,4 @@
-name: Deploy Jekyll site to Pages
+name: Desplegar sitio Jekyll en GitHub Pages
 
 on:
   push:
@@ -15,41 +15,50 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  construir:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Obtener el repositorio
         uses: actions/checkout@v4
 
-      - name: Setup Ruby
+      - name: Configurar Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
           bundler-cache: true
           cache-version: 0
 
-      - name: Check Ruby version
+      - name: Verificar versión de Ruby
         run: ruby -v
 
-      - name: Setup GitHub Pages
+      - name: Instalar dependencias
+        run: bundle install
+
+      - name: Configurar GitHub Pages
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Build site with Jekyll
+      - name: Construir el sitio con Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
 
-      - name: Upload site artifact
+      - name: Validar HTML y enlaces rotos
+        run: |
+          gem install html-proofer
+          htmlproofer ./_site --check-external-hash --disable-external=true --only-4xx --url-ignore "/localhost/,/127.0.0.1/"
+        continue-on-error: true
+
+      - name: Subir el artefacto del sitio
         uses: actions/upload-pages-artifact@v3
 
-  deploy:
+  desplegar:
     runs-on: ubuntu-latest
-    needs: build
+    needs: construir
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Desplegar en GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
