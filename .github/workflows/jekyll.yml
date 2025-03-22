@@ -1,4 +1,4 @@
-name: Desplegar sitio Jekyll en GitHub Pages
+name: Desplegar permaprendices.com en GitHub Pages
 
 on:
   push:
@@ -38,7 +38,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Construir el sitio con Jekyll
+      - name: Construir con Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
@@ -46,10 +46,10 @@ jobs:
       - name: Validar HTML y enlaces rotos
         run: |
           gem install html-proofer
-          htmlproofer ./_site --check-external-hash --disable-external=true --only-4xx --url-ignore "/localhost/,/127.0.0.1/"
+          htmlproofer ./_site --disable-external --only-4xx --check-favicon --check-html --report-invalid-tags --empty-alt-ignore --url-ignore "/localhost/,/127.0.0.1/"
         continue-on-error: true
 
-      - name: Subir el artefacto del sitio
+      - name: Subir los datos procesados para despliegue
         uses: actions/upload-pages-artifact@v3
 
   desplegar:
