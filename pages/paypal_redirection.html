@@ -1,0 +1,57 @@
+---
+permalink: "/autopay/"
+---
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirigiendo a PayPal...</title>
+</head>
+<body>
+
+<p>Redirigiendo a PayPal con un monto aleatorio...</p>
+<!-- Añadimos un ID al enlace para poder seleccionarlo fácilmente con JavaScript -->
+<p>Si no eres redirigido automáticamente, por favor <a id="fallback-link" href="#">haz clic aquí</a>.</p>
+
+<script>
+    // Función para ejecutar la lógica de redirección
+    function redirectPayPal() {
+        // 1. Define el rango
+        const min = 49.60;
+        const max = 50.40;
+
+        // 2. Genera un número aleatorio en el rango
+        let randomNumber = Math.random() * (max - min) + min;
+
+        // 3. Formatea el número a 2 decimales (usando punto .)
+        let formattedNumber = randomNumber.toFixed(2);
+
+        // 4. Construye la URL final
+        const baseUrl = "https://www.paypal.com/paypalme/anduwet/";
+        const redirectUrl = baseUrl + formattedNumber; // Usamos el punto
+
+        // (Opcional) Muestra la URL generada en la consola
+        console.log("URL generada:", redirectUrl);
+
+        // 5. ***NUEVO:*** Actualiza el href del enlace de fallback
+        const fallbackLink = document.getElementById('fallback-link');
+        if (fallbackLink) { // Es buena práctica comprobar si el elemento existe
+            fallbackLink.href = redirectUrl;
+        } else {
+            console.error("No se encontró el enlace de fallback con ID 'fallback-link'.");
+        }
+
+        // 6. Redirige el navegador a la URL construida
+        console.log("Intentando redirección automática a:", redirectUrl);
+        // Usamos replace() para una mejor experiencia de usuario (evita el botón "Atrás")
+        window.location.replace(redirectUrl);
+    }
+
+    // Llama a la función inmediatamente cuando el script se ejecuta
+    redirectPayPal();
+</script>
+
+</body>
+</html>
